@@ -16,7 +16,7 @@
             /* margin-top: 100px; */
             width: 483px;
             height: 497px;
-            margin: 300px auto;
+            margin: 400px auto;
             background-image: url(./电子木鱼.png);
         }
         h1 {
@@ -31,9 +31,9 @@
         }
         .n4 {
             color: transparent;
-            font-size:30px;
+            font-size:34px;
             position: absolute;
-            top: 400px;
+            top: 550px;
             left: 46%;
             animation: yan 1s linear
         }
