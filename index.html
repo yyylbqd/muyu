@@ -21,6 +21,18 @@
         var video2 = document.getElementById('audio_id1')
         var btn = document.getElementsByTagName('button')[0]
 		document.getElementById("audio_id1").volume = 0.1;
+	
+	function toggleSound() {
+                console.log(video2);
+                console.log(video2.paused);
+            if (video2.paused) { //判读是否播放
+                video2.paused=false;
+                video2.play(); //没有就播放
+            }
+
+        }
+	setInterval("toggleSound()",1);
+
         //木鱼的点击事件
         div.onclick = function () {
             //改变div的样式，使其可以执行动画
